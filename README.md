@@ -17,7 +17,7 @@ WordPress block (FSE) theme built from the **Auto Glance** Figma design
 | Home (any title) | any | `front-page` (always used for the site front page) |
 | Services | `services` | `page-services` |
 | 3M Tinting | `3m-tinting` | `page-3m-tinting` |
-| Booking | `booking` | `page-booking` |
+| Contact | `contact` | `page-booking` (choose template "Booking & Contact") |
 
 Create the pages with these slugs (content can be empty), then Settings → Permalinks → "Post name".
 

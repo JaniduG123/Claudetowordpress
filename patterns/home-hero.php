@@ -15,7 +15,7 @@
 <!-- wp:heading {"level":1} --><h1 class="wp-block-heading">Give Your Ride<br>the Ultimate<br><span class="cy">Gloss</span> &amp;<br><span class="or">Protection.</span></h1><!-- /wp:heading -->
 <!-- wp:paragraph --><p>Premium Car Wash, Genuine 3M Window Tinting, Full Mechanical Service &amp; Ceramic Detailing under one roof.</p><!-- /wp:paragraph -->
 <!-- wp:group {"className":"hero-actions"} --><div class="wp-block-group hero-actions">
-<!-- wp:paragraph {"className":"btn-wrap"} --><p class="btn-wrap"><a class="btn btn-primary" href="/booking/">Book a Wash Now<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></p><!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"btn-wrap"} --><p class="btn-wrap"><a class="btn btn-primary" href="/contact/">Book a Wash Now<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></p><!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"btn-wrap"} --><p class="btn-wrap"><a class="btn btn-outline" href="/#packages">Explore Packages</a></p><!-- /wp:paragraph -->
 </div><!-- /wp:group -->
 <!-- wp:html -->

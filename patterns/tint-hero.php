@@ -19,7 +19,7 @@
 <!-- wp:heading {"level":1} --><h1 class="wp-block-heading">Authorized 3M Window Tint Solutions – Ultimate <span class="or">Heat Rejection &amp; Privacy.</span></h1><!-- /wp:heading -->
 <!-- wp:paragraph {"className":"lead"} --><p class="lead">Keep your cabin cooler, protect your interior and add privacy with genuine 3M films — professionally installed and warranty-backed.</p><!-- /wp:paragraph -->
 <!-- wp:group {"className":"hero-actions"} --><div class="wp-block-group hero-actions">
-<!-- wp:paragraph {"className":"btn-wrap"} --><p class="btn-wrap"><a class="btn btn-primary" href="/booking/">Get a Tint Quote<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></p><!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"btn-wrap"} --><p class="btn-wrap"><a class="btn btn-primary" href="/contact/">Get a Tint Quote<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></p><!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"btn-wrap"} --><p class="btn-wrap"><a class="btn btn-outline" href="https://wa.me/94711911006">Chat on WhatsApp<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.2-1.4-2-1-.8.7a3.6 3.6 0 0 1-1.7-1.7l.7-.8-1-2z"/></svg></a></p><!-- /wp:paragraph -->
 </div><!-- /wp:group -->
 </div><!-- /wp:group -->
