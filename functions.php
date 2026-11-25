@@ -21,9 +21,9 @@ add_action( 'after_setup_theme', 'autoglance_setup' );
 
 function autoglance_assets() {
 	wp_enqueue_style( 'autoglance-fonts', autoglance_fonts_url(), array(), null );
-	wp_enqueue_style( 'autoglance-main', get_theme_file_uri( 'assets/css/main.css' ), array( 'autoglance-fonts' ), AUTOGLANCE_VERSION );
-	wp_enqueue_style( 'autoglance-block-fixes', get_theme_file_uri( 'assets/css/block-fixes.css' ), array( 'autoglance-main' ), AUTOGLANCE_VERSION );
-	wp_enqueue_script( 'autoglance-main', get_theme_file_uri( 'assets/js/main.js' ), array(), AUTOGLANCE_VERSION, true );
+	wp_enqueue_style( 'autoglance-main', get_theme_file_uri( 'assets/css/main.css' ), array( 'autoglance-fonts' ), filemtime( get_theme_file_path( 'assets/css/main.css' ) ) );
+	wp_enqueue_style( 'autoglance-block-fixes', get_theme_file_uri( 'assets/css/block-fixes.css' ), array( 'autoglance-main' ), filemtime( get_theme_file_path( 'assets/css/block-fixes.css' ) ) );
+	wp_enqueue_script( 'autoglance-main', get_theme_file_uri( 'assets/js/main.js' ), array(), filemtime( get_theme_file_path( 'assets/js/main.js' ) ), true );
 }
 add_action( 'wp_enqueue_scripts', 'autoglance_assets' );
 
