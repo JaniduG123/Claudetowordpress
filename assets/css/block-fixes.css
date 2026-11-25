@@ -31,3 +31,12 @@ p.lead{margin-top:0}
 .page-content .wp-block-gallery img{border-radius:24px}
 .page-content .wp-block-image img{border-radius:24px}
 .page-hero .wp-block-post-title{color:#fff;margin:0}
+
+/* Sticky transparent header on scroll */
+header.wp-block-template-part{position:sticky;top:0;z-index:100}
+body.admin-bar header.wp-block-template-part{top:32px}
+@media(max-width:782px){body.admin-bar header.wp-block-template-part{top:46px}}
+.site-header{transition:background .3s ease,backdrop-filter .3s ease,box-shadow .3s ease}
+.site-header.is-scrolled{background:rgba(11,17,32,.55);-webkit-backdrop-filter:blur(14px) saturate(140%);backdrop-filter:blur(14px) saturate(140%);box-shadow:0 1px 0 rgba(255,255,255,.08)}
+.site-header.is-scrolled .nav-wrap{min-height:76px}
+.site-header .nav-wrap{transition:min-height .3s ease}
