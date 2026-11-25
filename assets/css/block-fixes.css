@@ -1,0 +1,25 @@
+/* Block-theme adjustments on top of main.css */
+.wp-site-blocks{padding:0}
+.wp-site-blocks>*{margin-block-start:0;margin-block-end:0}
+.wp-block-template-part,main.wp-block-group{margin:0}
+.wp-block-group.container{max-width:none}
+:where(.wp-block-group)>*{margin-block-start:0;margin-block-end:0}
+.hero-actions{display:flex;gap:16px;flex-wrap:wrap}
+.hero-actions .btn-wrap{margin:0!important}
+.cta-band .container>.btn-wrap{margin:0!important}
+.cta-band .container>.wp-block-group{margin-right:auto}
+.page-hero .wp-block-heading,.hero .wp-block-heading{color:#fff}
+.dark-section h2,.booking-banner h2,.cta-band h2,.help-card h2,.info-card h3,.site-footer h4{color:#fff}
+.booking-banner-form h3{color:var(--ink)}
+.wp-block-navigation.ag-nav{margin-inline:auto}
+.ag-nav .wp-block-navigation__container{gap:34px}
+.ag-nav .wp-block-navigation__responsive-container-open{color:#fff}
+.site-header .nav-wrap{flex-wrap:nowrap}
+.section-heading p{margin-inline:auto}
+.eyebrow.wp-block-paragraph,p.eyebrow{margin-bottom:18px}
+p.lead{color:#8d97b3}
+.wp-block-post-title{margin-bottom:24px}
+@media(max-width:1100px){.ag-nav .wp-block-navigation__container{gap:18px}.nav-cta{display:none}}
+@media(max-width:700px){.ag-nav .wp-block-navigation-item__content{font-size:18px}}
+.page-hero h1{font-size:clamp(36px,4vw,54px);line-height:1.1}
+.tint-grid h1{font-size:clamp(34px,3.6vw,50px)}

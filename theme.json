@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"layout": { "contentSize": "1280px", "wideSize": "1280px" },
+		"color": {
+			"defaultPalette": false,
+			"palette": [
+				{ "slug": "navy", "name": "Navy", "color": "#0b1120" },
+				{ "slug": "navy-2", "name": "Navy 2", "color": "#111f43" },
+				{ "slug": "card-dark", "name": "Card dark", "color": "#191f2d" },
+				{ "slug": "cyan", "name": "Cyan", "color": "#00e5ff" },
+				{ "slug": "orange", "name": "Orange", "color": "#ff5a00" },
+				{ "slug": "green", "name": "Green", "color": "#10b981" },
+				{ "slug": "ink", "name": "Ink", "color": "#0b1120" },
+				{ "slug": "muted", "name": "Muted", "color": "#64748b" },
+				{ "slug": "soft", "name": "Soft", "color": "#f4f7fb" },
+				{ "slug": "white", "name": "White", "color": "#ffffff" }
+			]
+		},
+		"typography": {
+			"fluid": false,
+			"fontFamilies": [
+				{ "slug": "inter", "name": "Inter", "fontFamily": "Inter, sans-serif" },
+				{ "slug": "montserrat", "name": "Montserrat", "fontFamily": "Montserrat, sans-serif" }
+			]
+		},
+		"spacing": { "units": ["px", "em", "rem", "%"] }
+	},
+	"styles": {
+		"color": { "background": "var(--wp--preset--color--white)", "text": "var(--wp--preset--color--ink)" },
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--inter)",
+			"lineHeight": "1.55"
+		},
+		"spacing": { "blockGap": "0" },
+		"elements": {
+			"link": { "color": { "text": "inherit" }, "typography": { "textDecoration": "none" } },
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--montserrat)",
+					"fontWeight": "800",
+					"lineHeight": "1.08"
+				}
+			}
+		}
+	}
+}
