@@ -73,7 +73,7 @@ img,svg{max-width:100%}
 .trust-line{display:flex;align-items:center;gap:12px;color:var(--orange2);font-size:20px;letter-spacing:3px}
 .trust-line span{letter-spacing:0;color:#94a3b8;font-size:15px}
 .hero-visual{position:relative;height:600px;border-radius:44px;border:1px solid #0b4976;background:radial-gradient(circle at 78% 18%,rgba(0,229,255,.55),transparent 45%),radial-gradient(circle at 5% 100%,rgba(255,90,0,.40),transparent 40%),linear-gradient(160deg,#0f2a63,#0b1120 70%);overflow:hidden;box-shadow:0 30px 70px rgba(0,0,0,.45)}
-.hero-visual .car{position:absolute;left:6%;bottom:16%;width:88%}
+.hero-visual .car{position:absolute;left:6%;top:50%;width:88%;height:auto;transform:translateY(-46%)}
 .drop{position:absolute;width:20px;height:26px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#bff6ff,#35b8e8 70%);opacity:.9}
 .glass-tag{position:absolute;display:flex;align-items:center;gap:12px;padding:10px 24px 10px 10px;border-radius:999px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);backdrop-filter:blur(10px);font-size:15px;font-weight:700;color:#fff;box-shadow:0 10px 30px rgba(0,0,0,.25)}
 .glass-tag .dot{display:grid;place-items:center;width:36px;height:36px;border-radius:50%;font-size:18px}
