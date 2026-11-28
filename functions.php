@@ -90,3 +90,11 @@ function autoglance_booking_shortcode( $atts ) {
 	return ob_get_clean();
 }
 add_shortcode( 'autoglance_booking', 'autoglance_booking_shortcode' );
+
+/**
+ * Block templates and patterns are not passed through the_content, so the Shortcode block
+ * would print "[autoglance_booking]" as plain text. Run shortcodes for that block ourselves.
+ */
+add_filter( 'render_block_core/shortcode', function ( $content ) {
+	return do_shortcode( shortcode_unautop( $content ) );
+} );
