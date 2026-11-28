@@ -38,3 +38,7 @@ body.admin-bar header.wp-block-template-part{top:32px}
 @media(max-width:782px){body.admin-bar header.wp-block-template-part{top:46px}}
 .site-header{transition:background .3s ease,backdrop-filter .3s ease,box-shadow .3s ease}
 .site-header .nav-wrap{transition:min-height .3s ease}
+
+.ag-nav .nav-book-mobile{display:none}
+.ag-nav .is-menu-open .nav-book-mobile{display:block}
+.ag-nav .is-menu-open .nav-book-mobile a{background:#f5b301;color:#0a1a3a;border-radius:999px;padding:12px 26px;font-weight:700}
